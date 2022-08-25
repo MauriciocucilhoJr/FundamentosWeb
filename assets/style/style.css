@@ -1,0 +1,29 @@
+/*estilo pagina index*/
+.center{
+    
+    text-align:  center;
+}
+
+/* flex box */
+.container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+}
+/* menu config*/
+#menu li {
+    display: inline;
+    padding: 30px;
+    text-decoration: none;
+}
+#menu li a:hover{
+    color: chartreuse;
+}
+.modimg{
+    border-radius: 15%;
+}
+.tamanho{
+    width: 35px;
+    height: 35px;
+}
